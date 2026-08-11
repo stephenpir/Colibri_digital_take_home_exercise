@@ -1,0 +1,16 @@
+# Local Python environments and tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated pipeline output and local Spark state
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Operating-system and editor files
+.DS_Store
+.vscode/
